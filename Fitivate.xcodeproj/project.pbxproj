@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B16E036D18ED520E0009B392 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E036C18ED520E0009B392 /* Foundation.framework */; };
+		B16E036F18ED520E0009B392 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E036E18ED520E0009B392 /* CoreGraphics.framework */; };
+		B16E037118ED520E0009B392 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E037018ED520E0009B392 /* UIKit.framework */; };
+		B16E037318ED520E0009B392 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E037218ED520E0009B392 /* CoreData.framework */; };
+		B16E037918ED520E0009B392 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B16E037718ED520E0009B392 /* InfoPlist.strings */; };
+		B16E037B18ED520E0009B392 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E037A18ED520E0009B392 /* main.m */; };
+		B16E037F18ED520E0009B392 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E037E18ED520E0009B392 /* AppDelegate.m */; };
+		B16E038218ED520E0009B392 /* Fitivate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B16E038018ED520E0009B392 /* Fitivate.xcdatamodeld */; };
+		B16E038418ED520E0009B392 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16E038318ED520E0009B392 /* Images.xcassets */; };
+		B16E038B18ED520E0009B392 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E038A18ED520E0009B392 /* XCTest.framework */; };
+		B16E038C18ED520E0009B392 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E036C18ED520E0009B392 /* Foundation.framework */; };
+		B16E038D18ED520E0009B392 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E037018ED520E0009B392 /* UIKit.framework */; };
+		B16E038E18ED520E0009B392 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16E037218ED520E0009B392 /* CoreData.framework */; };
+		B16E039618ED520E0009B392 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B16E039418ED520E0009B392 /* InfoPlist.strings */; };
+		B16E039818ED520E0009B392 /* FitivateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B16E039718ED520E0009B392 /* FitivateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B16E038F18ED520E0009B392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B16E036118ED520E0009B392 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B16E036818ED520E0009B392;
+			remoteInfo = Fitivate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B16E036918ED520E0009B392 /* Fitivate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitivate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16E036C18ED520E0009B392 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B16E036E18ED520E0009B392 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B16E037018ED520E0009B392 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B16E037218ED520E0009B392 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B16E037618ED520E0009B392 /* Fitivate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fitivate-Info.plist"; sourceTree = "<group>"; };
+		B16E037818ED520E0009B392 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B16E037A18ED520E0009B392 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B16E037C18ED520E0009B392 /* Fitivate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fitivate-Prefix.pch"; sourceTree = "<group>"; };
+		B16E037D18ED520E0009B392 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B16E037E18ED520E0009B392 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B16E038118ED520E0009B392 /* Fitivate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fitivate.xcdatamodel; sourceTree = "<group>"; };
+		B16E038318ED520E0009B392 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B16E038918ED520E0009B392 /* FitivateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitivateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16E038A18ED520E0009B392 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B16E039318ED520E0009B392 /* FitivateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitivateTests-Info.plist"; sourceTree = "<group>"; };
+		B16E039518ED520E0009B392 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B16E039718ED520E0009B392 /* FitivateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitivateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B16E036618ED520E0009B392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16E036F18ED520E0009B392 /* CoreGraphics.framework in Frameworks */,
+				B16E037318ED520E0009B392 /* CoreData.framework in Frameworks */,
+				B16E037118ED520E0009B392 /* UIKit.framework in Frameworks */,
+				B16E036D18ED520E0009B392 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16E038618ED520E0009B392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16E038B18ED520E0009B392 /* XCTest.framework in Frameworks */,
+				B16E038E18ED520E0009B392 /* CoreData.framework in Frameworks */,
+				B16E038D18ED520E0009B392 /* UIKit.framework in Frameworks */,
+				B16E038C18ED520E0009B392 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B16E036018ED520E0009B392 = {
+			isa = PBXGroup;
+			children = (
+				B16E037418ED520E0009B392 /* Fitivate */,
+				B16E039118ED520E0009B392 /* FitivateTests */,
+				B16E036B18ED520E0009B392 /* Frameworks */,
+				B16E036A18ED520E0009B392 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B16E036A18ED520E0009B392 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B16E036918ED520E0009B392 /* Fitivate.app */,
+				B16E038918ED520E0009B392 /* FitivateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B16E036B18ED520E0009B392 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B16E036C18ED520E0009B392 /* Foundation.framework */,
+				B16E036E18ED520E0009B392 /* CoreGraphics.framework */,
+				B16E037018ED520E0009B392 /* UIKit.framework */,
+				B16E037218ED520E0009B392 /* CoreData.framework */,
+				B16E038A18ED520E0009B392 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B16E037418ED520E0009B392 /* Fitivate */ = {
+			isa = PBXGroup;
+			children = (
+				B16E037D18ED520E0009B392 /* AppDelegate.h */,
+				B16E037E18ED520E0009B392 /* AppDelegate.m */,
+				B16E038318ED520E0009B392 /* Images.xcassets */,
+				B16E038018ED520E0009B392 /* Fitivate.xcdatamodeld */,
+				B16E037518ED520E0009B392 /* Supporting Files */,
+			);
+			path = Fitivate;
+			sourceTree = "<group>";
+		};
+		B16E037518ED520E0009B392 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B16E037618ED520E0009B392 /* Fitivate-Info.plist */,
+				B16E037718ED520E0009B392 /* InfoPlist.strings */,
+				B16E037A18ED520E0009B392 /* main.m */,
+				B16E037C18ED520E0009B392 /* Fitivate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B16E039118ED520E0009B392 /* FitivateTests */ = {
+			isa = PBXGroup;
+			children = (
+				B16E039718ED520E0009B392 /* FitivateTests.m */,
+				B16E039218ED520E0009B392 /* Supporting Files */,
+			);
+			path = FitivateTests;
+			sourceTree = "<group>";
+		};
+		B16E039218ED520E0009B392 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B16E039318ED520E0009B392 /* FitivateTests-Info.plist */,
+				B16E039418ED520E0009B392 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B16E036818ED520E0009B392 /* Fitivate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16E039B18ED520E0009B392 /* Build configuration list for PBXNativeTarget "Fitivate" */;
+			buildPhases = (
+				B16E036518ED520E0009B392 /* Sources */,
+				B16E036618ED520E0009B392 /* Frameworks */,
+				B16E036718ED520E0009B392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitivate;
+			productName = Fitivate;
+			productReference = B16E036918ED520E0009B392 /* Fitivate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B16E038818ED520E0009B392 /* FitivateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16E039E18ED520E0009B392 /* Build configuration list for PBXNativeTarget "FitivateTests" */;
+			buildPhases = (
+				B16E038518ED520E0009B392 /* Sources */,
+				B16E038618ED520E0009B392 /* Frameworks */,
+				B16E038718ED520E0009B392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B16E039018ED520E0009B392 /* PBXTargetDependency */,
+			);
+			name = FitivateTests;
+			productName = FitivateTests;
+			productReference = B16E038918ED520E0009B392 /* FitivateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B16E036118ED520E0009B392 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rayden Lee";
+				TargetAttributes = {
+					B16E038818ED520E0009B392 = {
+						TestTargetID = B16E036818ED520E0009B392;
+					};
+				};
+			};
+			buildConfigurationList = B16E036418ED520E0009B392 /* Build configuration list for PBXProject "Fitivate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B16E036018ED520E0009B392;
+			productRefGroup = B16E036A18ED520E0009B392 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B16E036818ED520E0009B392 /* Fitivate */,
+				B16E038818ED520E0009B392 /* FitivateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B16E036718ED520E0009B392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16E037918ED520E0009B392 /* InfoPlist.strings in Resources */,
+				B16E038418ED520E0009B392 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16E038718ED520E0009B392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16E039618ED520E0009B392 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B16E036518ED520E0009B392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16E038218ED520E0009B392 /* Fitivate.xcdatamodeld in Sources */,
+				B16E037F18ED520E0009B392 /* AppDelegate.m in Sources */,
+				B16E037B18ED520E0009B392 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16E038518ED520E0009B392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16E039818ED520E0009B392 /* FitivateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B16E039018ED520E0009B392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B16E036818ED520E0009B392 /* Fitivate */;
+			targetProxy = B16E038F18ED520E0009B392 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B16E037718ED520E0009B392 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16E037818ED520E0009B392 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B16E039418ED520E0009B392 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16E039518ED520E0009B392 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B16E039918ED520E0009B392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B16E039A18ED520E0009B392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B16E039C18ED520E0009B392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fitivate/Fitivate-Prefix.pch";
+				INFOPLIST_FILE = "Fitivate/Fitivate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B16E039D18ED520E0009B392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fitivate/Fitivate-Prefix.pch";
+				INFOPLIST_FILE = "Fitivate/Fitivate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B16E039F18ED520E0009B392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fitivate.app/Fitivate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fitivate/Fitivate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FitivateTests/FitivateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B16E03A018ED520E0009B392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fitivate.app/Fitivate";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fitivate/Fitivate-Prefix.pch";
+				INFOPLIST_FILE = "FitivateTests/FitivateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B16E036418ED520E0009B392 /* Build configuration list for PBXProject "Fitivate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16E039918ED520E0009B392 /* Debug */,
+				B16E039A18ED520E0009B392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16E039B18ED520E0009B392 /* Build configuration list for PBXNativeTarget "Fitivate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16E039C18ED520E0009B392 /* Debug */,
+				B16E039D18ED520E0009B392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B16E039E18ED520E0009B392 /* Build configuration list for PBXNativeTarget "FitivateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16E039F18ED520E0009B392 /* Debug */,
+				B16E03A018ED520E0009B392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B16E038018ED520E0009B392 /* Fitivate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B16E038118ED520E0009B392 /* Fitivate.xcdatamodel */,
+			);
+			currentVersion = B16E038118ED520E0009B392 /* Fitivate.xcdatamodel */;
+			path = Fitivate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B16E036118ED520E0009B392 /* Project object */;
+}
