@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Constants.h"
 
 @implementation AppDelegate
 
@@ -17,9 +18,26 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    // setup parse
+    [Parse setApplicationId:@"5akbKGQnwblhGlTNNWC2Z05u5I2FxQ1r6WYspzgs"
+                  clientKey:@"HY6BfQxiZb57qYdAm5bJGoVMGQLSSUFjPNB6675R"];
+    
+    PFUser *user = [PFUser currentUser];
+    [user refreshInBackgroundWithBlock:^(PFObject *object, NSError *error) {
+    }];
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone){
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:PhoneStoryboardName bundle:nil];
+        self.window.rootViewController = [storyboard instantiateInitialViewController];
+    }
+    
+    //self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -14,4 +14,11 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
     #import <CoreData/CoreData.h>
+    #import <Parse/Parse.h>
+    #import "Constants.h"
+    #import "UIAlertViewWithBlock.h"
+    #import "Events.h"
+    #import "ErrorResult.h"
+    #import "ActivityIndicator.h"
+    #import "Helpers.h"
 #endif
